@@ -44,3 +44,6 @@ print('\n75 percent of cars has a speed of', np.percentile(speed, 75), ' or lowe
 
 '''regrssion line'''
 predReg()
+
+'''K-means clustering'''
+
