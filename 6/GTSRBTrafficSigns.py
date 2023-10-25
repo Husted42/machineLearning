@@ -21,9 +21,9 @@ class GTSRBTrafficSigns(Dataset):
     force_download: bool
         Download data from server even if a local copy is detected
     crop_size: int
-        Height and width of the input image 
+        Height and width of the input image
     """
-    self.img_height  = 32  
+    self.img_height  = 32
     self.img_width   = self.img_height
     self.img_height_crop = crop_size  
     self.img_width_crop  = self.img_height_crop
